@@ -1,0 +1,23 @@
+---
+layout: main.vto
+title: produkter
+---
+
+<h1>her skal vi selge <del>"såpebarer"</del> trekubber og bål i boks</h1>
+<h1>Produkter</h1>
+<br>
+
+<div  display="inline-flex" id="prodBoxPapa">
+{{ set products = search.pages("type=product") }}
+{{ for product of products }}
+<a href={{product.url}}>
+    <div class="prodBox">
+        <img src={{product.image}}>
+        <div>
+        <h2>{{product.title}}</h2>
+        <p>{{product.desc}}</p>
+        </div>  
+    </div>
+</a>
+{{ /for }}
+</div>
