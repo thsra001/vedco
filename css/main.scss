@@ -132,20 +132,15 @@ i{color: $col2; font-size: 2rem;}
     }
 
 }
-html{font-size: 80%;}
 
 
 @media only screen and (max-width: 640px) {
-html{font-size: 8px;}
-#topTitle{
-    font-size: 2rem;
-}
-.topSectors{
-    font-size: 1.25rem;
-}
+html{font-size: 50%;}
+
 #content{
     width: 100%;
     margin: 0;
+    height: 100%;
 }
 #footer{
     width: 100%;
@@ -156,7 +151,6 @@ html{font-size: 8px;}
     margin: 0;
 }
 #topsectorlist{
-    column-gap: 0.1%;
     width: 100%;
 }
 }

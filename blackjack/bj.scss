@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{background-color: #2f2436;}
+#card{
+    width:128px;
+    height:176px;
+    background-color:#88C4AA;
+    border-radius:10px;
+}
+.cardHolder{
+    text-align:left;
+    width:128px;
+    height:88px;
+}
+.cardText{
+    display:inline-block;
+    text-align:center;
+    font-size:25px;
+    color:#063F2D;
+    margin: 5px 0 0 5px;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.red{color:#3F062C}
+    
